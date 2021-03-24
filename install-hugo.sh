@@ -1,5 +1,5 @@
 #!/bin/bash
-NAME=hugo_extended
+NAME=hugo
 REPO=https://github.com/gohugoio/hugo
 VERSION=0.68.0
 

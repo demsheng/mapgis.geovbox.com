@@ -7,6 +7,7 @@ headless: true
 - [**库管理**]({{< relref "/docs/library" >}})
 - [**空间分析**]({{< relref "/docs/spatial" >}})
 - [**图象处理**]({{< relref "/docs/image" >}})
+  - [图像分析]({{< relref "/docs/image/analysis" >}})
 - [**实用服务**]({{< relref "/docs/utility" >}})
 <br />
 

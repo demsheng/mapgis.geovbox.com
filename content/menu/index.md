@@ -2,11 +2,12 @@
 headless: true
 ---
 
-- [**安装**]({{< relref "/docs/install" >}})
-- [**图形处理**]({{< relref "/docs/graphics" >}})
-- [**库管理**]({{< relref "/docs/library" >}})
-- [**空间分析**]({{< relref "/docs/spatial" >}})
-- [**图象处理**]({{< relref "/docs/image" >}})
-- [**实用服务**]({{< relref "/docs/utility" >}})
+- [**0 安装**]({{< relref "/docs/install" >}})
+- [**1 格式转换**]({{< relref "/docs/format conversion" >}})
+- [**2 校正图像**]({{< relref "/docs/geometric_correction" >}})
+- [**3 生成图框**]({{< relref "/docs/generate_frame" >}})
+- [**4 剪裁图像**]({{< relref "/docs/cut_image" >}})
+- [**5 造区**]({{< relref "/docs/gen_wp" >}})
+
 <br />
 

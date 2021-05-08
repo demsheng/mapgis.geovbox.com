@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "安装"
+title: "0 安装"
 ---
 
 # 安装 (45分钟)

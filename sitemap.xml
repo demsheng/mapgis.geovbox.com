@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/install/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/format_conversion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/geometric_correction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/generate_frame/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/cut_image/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/gen_wp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/image/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/graphics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mapgis.geovbox.com/</loc>
+  </url>
+  
+</urlset>

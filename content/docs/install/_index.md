@@ -1,10 +1,10 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "0 安装"
+title: "MapGIS安装"
 ---
 
-# 安装 (45分钟)
+# MapGIS安装 (45分钟)
 
 1. 下载并解压，链接 [百度网盘](https://pan.baidu.com/s/1OUw4IkpgwhjY8RlhL7zcYA) 提取码：`vbox` 
 2. 双击运行`MapGIS` 安装程序 `Setup67.EXE`

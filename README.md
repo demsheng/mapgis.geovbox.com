@@ -1,4 +1,4 @@
-# 地学计算机制图
+# MapGIS 和 ArcGIS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 [![Deploy](https://github.com/demsheng/mapgis.geovbox.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/demsheng/mapgis.geovbox.com/actions/workflows

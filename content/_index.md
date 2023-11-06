@@ -3,10 +3,11 @@ title: 简介
 type: docs
 ---
 
-# MapGIS6.7  和 ArcGIS10.8 安装教程
+# 软件安装教程
 
 **授课老师：** [李长圣](https://geovbox.com/about/lichangsheng/)
 
-- [**MapGIS安装**]({{< relref "/docs/install" >}})
-- [**ArcGIS安装**]({{< relref "/docs/install_arcgis" >}})
+- [**MapGIS6.7安装**]({{< relref "/docs/install" >}})
+- [**ArcGIS10.8安装**]({{< relref "/docs/install_arcgis" >}})
+- [**GoCAD17安装**]({{< relref "/docs/install_gocad" >}})
 

@@ -44,3 +44,5 @@ title: "ArcGIS 安装"
 - windows开始菜单找到 `ArcMap 10.8` ，单击即可打开。 
    ![avatar](13.png)
 
+
+**致谢：** 王子恒（ArcGIS）

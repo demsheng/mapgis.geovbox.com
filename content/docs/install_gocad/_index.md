@@ -30,3 +30,5 @@ title: "GOCAD安装"
 	![avatar](11.jpg)
 12. 开始使用。  
 	![avatar](12.jpg)
+	
+**致谢：** 朱素芹（GoCAD）

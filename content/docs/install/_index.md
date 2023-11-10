@@ -4,7 +4,12 @@ bookFlatSection: true
 title: "MapGIS安装"
 ---
 
-# MapGIS安装 (45分钟)
+## 视频教程
+
+- [Mapgis制图](https://www.bilibili.com/video/BV15S4y1u7yj/?share_source=copy_web&vd_source=a6427384848e8aaa4034a801f47d4fb2)
+
+
+## MapGIS安装
 
 1. 下载并解压，链接 [百度网盘](https://pan.baidu.com/s/1OUw4IkpgwhjY8RlhL7zcYA) 提取码：`vbox` 
 2. 双击运行`MapGIS` 安装程序 `Setup67.EXE`

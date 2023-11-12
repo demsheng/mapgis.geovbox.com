@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="generator" content="Hugo 0.68.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Abaqus 2022 安装 注意事项  安装过程中，不要使用中文目录。 建议都安装到C盘。安装到其他盘，如果无法打开，请卸载后，安装到C盘。 安装前关闭杀毒软件。  下载并解压  下载压缩包 DS.SIMULIA.Suite.2022.Win64.zip.001 和 DS.SIMULIA.Suite.2022.Win64.zip.002 ， 下载链接 百度网盘 提取码：zdem 右键 DS.SIMULIA.Suite.2022.Win64.zip.001 解压出文件夹DS.SIMULIA.Suite.2022.Win64 ，注意 DS.SIMULIA.Suite.2022.Win64.zip.001 和 DS.SIMULIA.Suite.2022.Win64.zip.001 为 DS.SIMULIA.Suite.2022.Win64 分卷压缩（为了保证每个压缩包小于4G）得到，它俩共同出现才能解压出了 DS.SIMULIA.Suite.2022.Win64， 所以只需解压一次即可。   安装软件许可证  首先设置环境变量，鼠标右键点击桌面此电脑，选择属性
+ 打开高级系统设置，点击环境变量，在系统变量下点击新建，输入变量名：NOLICENSECHECK,变量值：true，点击确定  进入 ./DS.SIMULIA.Suite.2022.Win64/solidSQUAD_ 文件，解压 SSQ_UniversalLicenseServer_Core_20180127074300.zip 和 SSQ_UniversalLicenseServer_Module_DSSimulia_20201125092500.zip  运行破解文件  将 .\SSQ_UniversalLicenseServer_Module_DSSimulia_20201125092500\Vendors 文件夹复制到 ./SSQ_UniversalLicenseServer_Core_20180127074300/SolidSQUAD_License_Servers 文件夹中， 然后将 ./SSQ_UniversalLicenseServer_Core_20180127074300/SolidSQUAD_License_Servers 文件夹复制到 C:/abaqus （必须复制到C盘abaqus下）文件夹 （如没有该文件夹，自行创建）。 右键以管理员身份运行 install_or_update.bat （文件类型： windows批处文件）。    等待，破解完成出现如下图所示，按任意键继续&hellip;，即完成破解。   安装Abaqus  右键用windows资源管理器打开 DS.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Abaqus安装" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mapgis.geovbox.com/docs/install_abaqus/" />
+
+<title>Abaqus安装 | 首页</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.6c7c6446dfdee7c8c933e9bbc6e80ee3ed6c913b2a59519f2092c3c6a9d63e55.css" integrity="sha256-bHxkRt/e58jJM&#43;m7xugO4&#43;1skTsqWVGfIJLDxqnWPlU=">
+<script defer src="/en.search.min.b4102793b493678f5f000ad3ae2af4772ee0d49211309339ecc49aafa84d4d98.js" integrity="sha256-tBAnk7STZ49fAArTrir0dy7g1JIRMJM57MSar6hNTZg="></script>
+<link rel="alternate" type="application/rss+xml" href="https://mapgis.geovbox.com/docs/install_abaqus/index.xml" title="首页" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>首页</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://mapgis.geovbox.com/docs/install/" class="">MapGIS安装</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://mapgis.geovbox.com/docs/install_arcgis/" class="">ArcGIS 安装</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://mapgis.geovbox.com/docs/install_gocad/" class="">GOCAD安装</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://mapgis.geovbox.com/docs/install_abaqus/" class=" active">Abaqus安装</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        作业
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Abaqus安装</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#注意事项">注意事项</a></li>
+    <li><a href="#下载并解压">下载并解压</a></li>
+    <li><a href="#安装软件许可证">安装软件许可证</a></li>
+    <li><a href="#安装abaqus">安装Abaqus</a></li>
+    <li><a href="#运行软件">运行软件</a></li>
+    <li><a href="#abaqus软件汉化">Abaqus软件汉化</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="abaqus-2022-安装">Abaqus 2022 安装</h1>
+<h2 id="注意事项">注意事项</h2>
+<ul>
+<li>安装过程中，<strong>不要使用中文目录</strong>。</li>
+<li><strong>建议都安装到C盘</strong>。安装到其他盘，如果无法打开，请卸载后，安装到C盘。</li>
+<li>安装前关闭杀毒软件。</li>
+</ul>
+<h2 id="下载并解压">下载并解压</h2>
+<ol>
+<li>下载压缩包 <code>DS.SIMULIA.Suite.2022.Win64.zip.001</code> 和 <code>DS.SIMULIA.Suite.2022.Win64.zip.002</code> ，  下载链接 <a href="https://pan.baidu.com/s/1PsngafqtjtIT50FucetsCg?pwd=zdem">百度网盘</a> 提取码：<code>zdem</code></li>
+<li>右键 <code>DS.SIMULIA.Suite.2022.Win64.zip.001</code> 解压出文件夹<code>DS.SIMULIA.Suite.2022.Win64</code> ，<em>注意 DS.SIMULIA.Suite.2022.Win64.zip.001 和 DS.SIMULIA.Suite.2022.Win64.zip.001 为 DS.SIMULIA.Suite.2022.Win64 分卷压缩（为了保证每个压缩包小于4G）得到，它俩共同出现才能解压出了 DS.SIMULIA.Suite.2022.Win64，</em> <strong>所以只需解压一次即可。</strong>
+<img src="02.png" alt="avatar" /></li>
+</ol>
+<h2 id="安装软件许可证">安装软件许可证</h2>
+<ol>
+<li>首先设置环境变量，鼠标右键点击桌面此电脑，选择属性<br>
+<img src="03.png" alt="avatar" /></li>
+<li>打开高级系统设置，点击环境变量，在系统变量下点击新建，输入变量名：NOLICENSECHECK,变量值：true，点击确定
+<img src="04.png" alt="avatar" /></li>
+<li>进入 <code>./DS.SIMULIA.Suite.2022.Win64/solidSQUAD_</code> 文件，解压 SSQ_UniversalLicenseServer_Core_20180127074300.zip 和 SSQ_UniversalLicenseServer_Module_DSSimulia_20201125092500.zip
+<img src="05.png" alt="avatar" /></li>
+<li>运行破解文件
+<ul>
+<li>将 <code>.\SSQ_UniversalLicenseServer_Module_DSSimulia_20201125092500\Vendors</code> 文件夹复制到  <code>./SSQ_UniversalLicenseServer_Core_20180127074300/SolidSQUAD_License_Servers</code> 文件夹中，</li>
+<li>然后将  <code>./SSQ_UniversalLicenseServer_Core_20180127074300/SolidSQUAD_License_Servers</code> 文件夹复制到 <code>C:/abaqus</code> （<strong>必须复制到C盘abaqus下</strong>）文件夹 （如没有该文件夹，自行创建）。</li>
+<li>右键以管理员身份运行 <code>install_or_update.bat</code> （文件类型： windows批处文件）。
+<img src="07.png" alt="avatar" /></li>
+</ul>
+</li>
+<li>等待，破解完成出现如下图所示，按任意键继续&hellip;，即完成破解。
+<img src="08.png" alt="avatar" /></li>
+</ol>
+<h2 id="安装abaqus">安装Abaqus</h2>
+<ol>
+<li>右键用windows资源管理器打开 <code>DS.SIMULIA.Suite.2022.Win64.iso</code> ，将其装载到了虚拟光驱。
+<img src="09.png" alt="avatar" /></li>
+<li>以管理员身份运行 <code>./1/setup.exe</code> 安装程序
+<img src="11.png" alt="avatar" /></li>
+<li>点击下一步<br>
+<img src="12.png" alt="avatar" /></li>
+<li>采用默认选择，点击下一步<br>
+<img src="13.png" alt="avatar" /></li>
+<li>点击安装<br>
+<img src="14.png" alt="avatar" /></li>
+<li>安装过程中，弹出如下图所示界面，点击浏览，选择文件2。
+<img src="15.png" alt="avatar" /></li>
+<li>点击确定<br>
+<img src="16.png" alt="avatar" /></li>
+<li>选择安装的目录，点击下一步。
+<img src="17.png" alt="avatar" /></li>
+<li>选择如图所示的选项，点击下一步
+<img src="18.png" alt="avatar" /></li>
+<li>按照默认选项，点击下一步。
+<img src="19.png" alt="avatar" /></li>
+<li>输入27800@localhost，点击下一步。
+<img src="20.png" alt="avatar" /></li>
+<li>选择设置安装的目录，点击下一步
+<img src="21.png" alt="avatar" /></li>
+<li>点击下一步
+<img src="22.png" alt="avatar" />
+<img src="23.png" alt="avatar" /></li>
+<li>默认，点击下一步。
+<img src="24.png" alt="avatar" /></li>
+<li>点击下一步
+<img src="25.png" alt="avatar" /></li>
+<li>点击安装
+<img src="26.png" alt="avatar" /></li>
+<li>点击continue
+<img src="27.png" alt="avatar" /></li>
+<li>点击关闭
+<img src="28.png" alt="avatar" /></li>
+<li>点击浏览，选择文件夹3，点击确定
+<img src="29.png" alt="avatar" />
+<img src="30.png" alt="avatar" />
+<img src="31.png" alt="avatar" /></li>
+<li>选择安装目录 <code>C:\SIMULIA\EstProdudts\2022</code> ，点击下一步。
+<img src="32.png" alt="avatar" /></li>
+<li>全选，点击下一步。
+<img src="33.png" alt="avatar" /></li>
+<li>点击安装
+<img src="34.png" alt="avatar" /></li>
+<li>点击关闭
+<img src="35.png" alt="avatar" /></li>
+<li>选择目录，点击下一步
+<img src="36.png" alt="avatar" /></li>
+<li>全部选择，点击下一步
+<img src="37.png" alt="avatar" /></li>
+<li>点击下一步
+<img src="38.png" alt="avatar" /></li>
+<li>点击下一步
+<img src="39.png" alt="avatar" /></li>
+<li>点击下一步
+<img src="40.png" alt="avatar" /></li>
+<li>点击安装
+<img src="41.png" alt="avatar" /></li>
+<li>点击关闭
+<img src="42.png" alt="avatar" /></li>
+<li>安装完成，点击关闭
+<img src="43.png" alt="avatar" /></li>
+</ol>
+<h2 id="运行软件">运行软件</h2>
+<ol>
+<li>在开始菜单中找到Abaqus CAE，点击打开
+<img src="44.png" alt="avatar" /></li>
+<li>打开后，软件界面如下图
+<img src="45.png" alt="avatar" /></li>
+</ol>
+<h2 id="abaqus软件汉化">Abaqus软件汉化</h2>
+<ol>
+<li>在文件夹 <code>C:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration</code> 中，找到 <code>locale.txt</code> 文件
+<img src="46.png" alt="avatar" /></li>
+<li>用记事本打开 <code>locale.txt</code> ，加入一行 <code>Chinese (Simplified)_China.936 = zh_CN</code> (<strong>注意 Chinese 后有一个空格！</strong>) ，然后将 <code>zh_CH=0</code> 改为 <code>zh_CH=1</code> ，然后保存，关闭。
+<img src="47.png" alt="avatar" /></li>
+<li>再次打开软件，显示界面如下图，即成功汉化。
+<img src="48.png" alt="avatar" /></li>
+</ol>
+<p><strong>致谢：</strong> 池禹（Abaqubs）</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#注意事项">注意事项</a></li>
+    <li><a href="#下载并解压">下载并解压</a></li>
+    <li><a href="#安装软件许可证">安装软件许可证</a></li>
+    <li><a href="#安装abaqus">安装Abaqus</a></li>
+    <li><a href="#运行软件">运行软件</a></li>
+    <li><a href="#abaqus软件汉化">Abaqus软件汉化</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abaqus安装 on 首页</title>
+    <link>https://mapgis.geovbox.com/docs/install_abaqus/</link>
+    <description>Recent content in Abaqus安装 on 首页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://mapgis.geovbox.com/docs/install_abaqus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

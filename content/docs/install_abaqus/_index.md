@@ -8,9 +8,9 @@ title: "Abaqus安装"
 
 ## 注意事项 
 
-- 安装过程中，**不要使用中文目录**
+- 安装过程中，**不要使用中文目录**。
 - **建议都安装到C盘**。安装到其他盘，如果无法打开，请卸载后，安装到C盘。
-
+- 安装前关闭杀毒软件。
 
 ## 下载并解压
 1. 下载压缩包 `DS.SIMULIA.Suite.2022.Win64.zip.001` 和 `DS.SIMULIA.Suite.2022.Win64.zip.002` ，  下载链接 [百度网盘](https://pan.baidu.com/s/1PsngafqtjtIT50FucetsCg?pwd=zdem) 提取码：`zdem` 
@@ -19,7 +19,7 @@ title: "Abaqus安装"
 	
 ## 安装软件许可证
 
-1. 首先设置环境变量，鼠标右键点击桌面此电脑，选择属性
+1. 首先设置环境变量，鼠标右键点击桌面此电脑，选择属性  
 	![avatar](03.png)
 2. 打开高级系统设置，点击环境变量，在系统变量下点击新建，输入变量名：NOLICENSECHECK,变量值：true，点击确定
 	![avatar](04.png)
@@ -105,9 +105,9 @@ title: "Abaqus安装"
 2. 打开后，软件界面如下图
 	![avatar](45.png)
 ## Abaqus软件汉化
-1. 在安装的文件夹中，选择下面路径，找到locale文件
+1. 在文件夹 `C:\SIMULIA\EstProducts\2021\win_b64\SMA\Configuration` 中，找到 `locale.txt` 文件
 	![avatar](46.png)
-2. 打开文件，加入一行Chinese(Simplified)_China.936=zh_CN,然后将zh_CH=0改为zh_CH=1，然后保存，关闭。
+2. 用记事本打开 `locale.txt` ，加入一行 `Chinese (Simplified)_China.936 = zh_CN` (**注意 Chinese 后有一个空格！**) ，然后将 `zh_CH=0` 改为 `zh_CH=1` ，然后保存，关闭。
 	![avatar](47.png)
 3. 再次打开软件，显示界面如下图，即成功汉化。
 	![avatar](48.png)
